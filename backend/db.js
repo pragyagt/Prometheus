@@ -1,6 +1,5 @@
-// Example using SQLite, replace with your preferred database library
 const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database(':memory:'); // Example: in-memory SQLite database
+const db = new sqlite3.Database(':memory:'); 
 
 // Create users table
 db.serialize(() => {
